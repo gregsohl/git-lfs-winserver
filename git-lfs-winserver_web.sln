@@ -7,11 +7,11 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "git_lfs_winserver_web", "gi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{16924D7C-5AD9-4387-A75D-0C1463808998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemStorageProvider", "FileSystemStorageProvider\FileSystemStorageProvider.csproj", "{76190FD1-8EB6-4F4F-AF81-923A0B8A39AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemStorageProvider", "Storage\FileSystemStorageProvider\FileSystemStorageProvider.csproj", "{76190FD1-8EB6-4F4F-AF81-923A0B8A39AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeltaCompressionStorageProvider", "DeltaCompressionStorageProvider\DeltaCompressionStorageProvider.csproj", "{A568AEDB-1961-4C1A-A393-A7977AF56F3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeltaCompressionStorageProvider", "Storage\DeltaCompressionStorageProvider\DeltaCompressionStorageProvider.csproj", "{A568AEDB-1961-4C1A-A393-A7977AF56F3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteDataProvider", "SQLiteDataProvider\SQLiteDataProvider.csproj", "{75E0E72A-6455-4A2F-8685-C5C9EA9B2328}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteDataProvider", "Data\SQLiteDataProvider\SQLiteDataProvider.csproj", "{75E0E72A-6455-4A2F-8685-C5C9EA9B2328}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{03A105EE-B3C5-4330-8D06-B4CE2460BF2F}"
 EndProject
@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{751A92AD-A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D0AFA5CA-C86A-45DA-883C-53E2F93A0CA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastJsonTranslationProivder", "FastJsonTranslationProivder\FastJsonTranslationProivder.csproj", "{474D5F09-7D89-47BD-999E-B58D60DF3344}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastJsonTranslationProivder", "Api\FastJsonTranslationProivder\FastJsonTranslationProivder.csproj", "{474D5F09-7D89-47BD-999E-B58D60DF3344}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

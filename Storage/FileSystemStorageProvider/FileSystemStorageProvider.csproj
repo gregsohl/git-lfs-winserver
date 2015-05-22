@@ -44,7 +44,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Interface\Interface.csproj">
+    <ProjectReference Include="..\..\Interface\Interface.csproj">
       <Project>{16924d7c-5ad9-4387-a75d-0c1463808998}</Project>
       <Name>Interface</Name>
     </ProjectReference>
