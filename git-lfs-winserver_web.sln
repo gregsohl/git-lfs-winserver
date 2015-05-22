@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "git_lfs_winserver_web", "git-lfs-winserver_web\git_lfs_winserver_web.xproj", "{337A69A9-6683-45CB-ACC1-4A11E5AD0531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{16924D7C-5AD9-4387-A75D-0C1463808998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemStorageProvider", "FileSystemStorageProvider\FileSystemStorageProvider.csproj", "{76190FD1-8EB6-4F4F-AF81-923A0B8A39AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeltaCompressionStorageProvider", "DeltaCompressionStorageProvider\DeltaCompressionStorageProvider.csproj", "{A568AEDB-1961-4C1A-A393-A7977AF56F3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteDataProvider", "SQLiteDataProvider\SQLiteDataProvider.csproj", "{75E0E72A-6455-4A2F-8685-C5C9EA9B2328}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{03A105EE-B3C5-4330-8D06-B4CE2460BF2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{751A92AD-A804-4E6D-96D4-8F72BD97F2E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D0AFA5CA-C86A-45DA-883C-53E2F93A0CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastJsonTranslationProivder", "FastJsonTranslationProivder\FastJsonTranslationProivder.csproj", "{474D5F09-7D89-47BD-999E-B58D60DF3344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{337A69A9-6683-45CB-ACC1-4A11E5AD0531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337A69A9-6683-45CB-ACC1-4A11E5AD0531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337A69A9-6683-45CB-ACC1-4A11E5AD0531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337A69A9-6683-45CB-ACC1-4A11E5AD0531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16924D7C-5AD9-4387-A75D-0C1463808998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16924D7C-5AD9-4387-A75D-0C1463808998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16924D7C-5AD9-4387-A75D-0C1463808998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16924D7C-5AD9-4387-A75D-0C1463808998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76190FD1-8EB6-4F4F-AF81-923A0B8A39AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76190FD1-8EB6-4F4F-AF81-923A0B8A39AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76190FD1-8EB6-4F4F-AF81-923A0B8A39AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76190FD1-8EB6-4F4F-AF81-923A0B8A39AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A568AEDB-1961-4C1A-A393-A7977AF56F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A568AEDB-1961-4C1A-A393-A7977AF56F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A568AEDB-1961-4C1A-A393-A7977AF56F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A568AEDB-1961-4C1A-A393-A7977AF56F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E0E72A-6455-4A2F-8685-C5C9EA9B2328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E0E72A-6455-4A2F-8685-C5C9EA9B2328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E0E72A-6455-4A2F-8685-C5C9EA9B2328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E0E72A-6455-4A2F-8685-C5C9EA9B2328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474D5F09-7D89-47BD-999E-B58D60DF3344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474D5F09-7D89-47BD-999E-B58D60DF3344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474D5F09-7D89-47BD-999E-B58D60DF3344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474D5F09-7D89-47BD-999E-B58D60DF3344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76190FD1-8EB6-4F4F-AF81-923A0B8A39AC} = {03A105EE-B3C5-4330-8D06-B4CE2460BF2F}
+		{A568AEDB-1961-4C1A-A393-A7977AF56F3E} = {03A105EE-B3C5-4330-8D06-B4CE2460BF2F}
+		{75E0E72A-6455-4A2F-8685-C5C9EA9B2328} = {751A92AD-A804-4E6D-96D4-8F72BD97F2E5}
+		{474D5F09-7D89-47BD-999E-B58D60DF3344} = {D0AFA5CA-C86A-45DA-883C-53E2F93A0CA6}
+	EndGlobalSection
+EndGlobal
